@@ -5,9 +5,8 @@
 
 int main(void)
 {
-    char tab[] = "salut";
-    tab[1] = 'o';
-    printf("%s\n",tab);
+    
+    printf("%s\n%s\n",__DATE__,__TIME__);
 
     return 0;
 }
