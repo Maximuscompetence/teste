@@ -1,11 +1,13 @@
 #include <string.h>
 #include <stdio.h>
-#define AGE() printf("20");
+
 
 
 int main(void)
 {
-    AGE()
+    char tab[] = "salut";
+    tab[1] = 'o';
+    printf("%s\n",tab);
 
     return 0;
 }
